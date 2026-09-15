@@ -1,0 +1,9 @@
+﻿# Built book formats (PDF/EPUB/DOCX).
+#
+# Attached to the GitHub Release rather than committed: they are already-compressed
+# archives that git cannot delta, so every revision would store a near-complete copy
+# and grow the repository permanently. README download links point at
+# /releases/latest/download/, which always resolves to the current build.
+book/*.pdf
+book/*.epub
+book/*.docx
